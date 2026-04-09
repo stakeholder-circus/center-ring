@@ -22,10 +22,10 @@
               program = "${pkgs.writeShellScript name text}";
             };
         in {
-          build = mk "center-ring-build" ''echo "center-ring is documentation and workflow focused"'';
-          test = mk "center-ring-test" ''echo "No runtime test suite yet"'';
-          check = mk "center-ring-check" ''actionlint'';
-          format = mk "center-ring-format" ''echo "No formatter baseline defined for center-ring"'';
+          build = mk "build" ''echo "center-ring is documentation and workflow focused"'';
+          test = mk "test" ''echo "No runtime test suite yet"'';
+          check = mk "check" ''actionlint'';
+          format = mk "format" ''echo "No formatter baseline defined for center-ring"'';
         });
     };
 }

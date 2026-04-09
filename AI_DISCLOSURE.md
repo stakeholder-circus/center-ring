@@ -2,7 +2,7 @@
 
 This repository is part of the stakeholder-circus rewrite program.
 
-- Repository: \
+- Repository: center-ring
 - Role: Umbrella governance, reusable workflow, interop, and status meta-repository for stakeholder-circus.
 - Review model: Codex-assisted, manually reviewed, human in the loop
 - Contact: david@supan.si
@@ -11,22 +11,15 @@ This repository is part of the stakeholder-circus rewrite program.
 
 Use these categories consistently:
 
-- \
-- \
-- \
-- \
+- human
+- ai-assisted
+- ai-drafted
+- code-generated
 
 ## Commit trailers
 
-AI-assisted or AI-drafted commits must use the following trailers:
+Use the following trailers on relevant commits:
 
-- \
-- \
-- \
-
-## Current baseline
-
-| Path / scope | Provenance | Tool | Human reviewer | Notes |
-| --- | --- | --- | --- | --- |
-| Repository governance baseline | ai-drafted | OpenAI Codex | David Supan | Repository disclosure, remotes, hooks, workflows, and flake targets were stamped during stakeholder-circus migration. |
-| Language/runtime implementation | ai-assisted | OpenAI Codex | David Supan | Rewrite work remains manually reviewed and traceability-driven. |
+- Assisted-by: OpenAI Codex
+- Generated-by: OpenAI Codex
+- Reviewed-by: David Supan

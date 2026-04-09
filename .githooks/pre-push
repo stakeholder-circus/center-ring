@@ -1,11 +1,11 @@
 #!/bin/sh
 set -eu
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-case "$current_branch" in
+branch=$(git rev-parse --abbrev-ref HEAD)
+case "$branch" in
   main|master)
     if [ "${ALLOW_DIRECT_PROTECTED_PUSH:-0}" != "1" ]; then
       cat >&2 <<'ERR'
-pre-push rejected direct push to protected branch. Use a PR or set ALLOW_DIRECT_PROTECTED_PUSH=1 for an intentional bootstrap push.
+pre-push rejected direct push to protected branch. Use a PR or set ALLOW_DIRECT_PROTECTED_PUSH=1 for bootstrap pushes.
 ERR
       exit 1
     fi

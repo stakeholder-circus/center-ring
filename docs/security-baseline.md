@@ -14,6 +14,6 @@ Default branch policy for live public repositories:
 Local baseline:
 
 - SSH commit signing
-- `core.hooksPath=.githooks`
+- core.hooksPath=.githooks
 - provenance trailers on commits
 - least-privilege GitHub Actions permissions

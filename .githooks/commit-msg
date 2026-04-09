@@ -8,10 +8,5 @@ if grep -q '^Reviewed-by:' "$msg_file"; then
 fi
 cat >&2 <<'ERR'
 commit-msg rejected: add Reviewed-by plus one provenance trailer.
-Accepted provenance trailers:
-- Assisted-by: OpenAI Codex
-- Generated-by: OpenAI Codex
-- Provenance: human
-- Provenance: code-generated
 ERR
 exit 1

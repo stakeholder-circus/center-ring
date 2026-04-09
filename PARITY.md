@@ -6,15 +6,15 @@ Umbrella governance, reusable workflow, interop, and status meta-repository for 
 
 ## Parity class
 
-- \
+- meta-repository
 
 ## Method and Review Model
 
 - Codex-assisted
 - Manually reviewed
 - Human in the loop
-- Derived from \ where applicable
-- Missing behavior must fail fast and be recorded explicitly in \
+- Derived from giacomo-b/rust-stakeholder where applicable
+- Missing behavior must fail fast and be recorded explicitly in GAPS.md
 
 ## Attribution model
 

@@ -3,7 +3,7 @@
 
 # center-ring
 
-`center-ring` is the umbrella meta-repo for stakeholder-circus.
+center-ring is the umbrella meta-repo for stakeholder-circus.
 
 It holds the cross-repo governance baseline:
 
@@ -13,4 +13,4 @@ It holds the cross-repo governance baseline:
 - interop roadmaps and harnesses
 - matrix and status dashboards
 
-Language implementations continue to live in their own `stakeholder-circus/*-stakeholder` repositories.
+Language implementations continue to live in their own stakeholder-circus/*-stakeholder repositories.
