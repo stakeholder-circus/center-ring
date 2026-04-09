@@ -1,0 +1,25 @@
+{
+  "source": "stakeholder-core/data/program-doc-hashes.json",
+  "mirroredDocs": [
+    {
+      "path": "docs/program/current-wave.md",
+      "sha256": "f9d97dfeab7d5fe0a47219747801c1b08123a820a44f5b81a639a54492ccb560"
+    },
+    {
+      "path": "docs/program/repo-sequencing.md",
+      "sha256": "52e915eb04411f54751ad73244a25f2594c18a1cd6e30e5a2343971e5ac57b5e"
+    },
+    {
+      "path": "docs/program/language-horizon.md",
+      "sha256": "5a02d561a709b13f47da9d2270537536ef608a8dcc64611682385795ee85001e"
+    },
+    {
+      "path": "docs/program/github-governance-state.md",
+      "sha256": "18f7bce2b7c2fff182cf2bdf48a25cc7fbc52a0df40310e19ddc87749cb8ca34"
+    },
+    {
+      "path": "docs/program/rewrite-status-matrix.md",
+      "sha256": "66968913d0f4ce51ec0363b6c5979231a00007b54783babfe9d9964e7d696c01"
+    }
+  ]
+}

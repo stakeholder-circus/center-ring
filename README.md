@@ -6,11 +6,16 @@
 center-ring is the umbrella meta-repo for stakeholder-circus.
 
 It holds the cross-repo governance baseline:
-
 - reusable workflow assets
 - issue and pull request templates
 - security and branch-protection guidance
 - interop roadmaps and harnesses
 - matrix and status dashboards
 
-Language implementations continue to live in their own stakeholder-circus/*-stakeholder repositories.
+## Program planning entry points
+- [`docs/program/index.md`](docs/program/index.md)
+- [`docs/program/current-wave.md`](docs/program/current-wave.md)
+- [`docs/program/language-horizon.md`](docs/program/language-horizon.md)
+- [`docs/program/governance-overlays.md`](docs/program/governance-overlays.md)
+
+Language implementations continue to live in their own `stakeholder-circus/*-stakeholder` repositories.
