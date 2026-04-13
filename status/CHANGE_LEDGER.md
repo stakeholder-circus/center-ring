@@ -306,3 +306,63 @@ Append-only engineering ledger for active, uncommitted, and in-flight work.
   - keep publication held until at least 10 new full rewrites with tests are complete
   - start `nim-stakeholder` as the next readiness-first full local rewrite tranche
   - install `nix` through the official multi-user macOS path once a live sudo-authenticated PTY is available
+
+### 2026-04-09-013
+
+- id: `2026-04-09-013`
+- timestamp: `2026-04-09 21:59 CEST`
+- scope: `nix activation + flake lock normalization`
+- repos:
+  - `stakeholder-core`
+  - `center-ring`
+  - `javascript-stakeholder`
+  - `java-stakeholder`
+  - `dotnet-stakeholder`
+  - `go-stakeholder`
+  - `python-stakeholder`
+  - `swift-stakeholder`
+  - `fsharp-stakeholder`
+  - `zig-stakeholder`
+  - `haskell-stakeholder`
+  - `kotlin-stakeholder`
+  - `elixir-stakeholder`
+  - workspace root summary docs
+- changes:
+  - Confirmed `nix` 2.34.5 is active through `/nix/var/nix/profiles/default/bin/nix` after the official multi-user macOS install.
+  - Ran `nix flake show` against `stakeholder-core` and normalized `flake.lock` across every active repo in scope.
+  - Recorded the resulting lock-shape split explicitly: the standard repos share `e473fbd5c12b739a9918a72fccf58b0279a8b8c163b1c81d52cc077a499ae173`, while `zig-stakeholder` and `haskell-stakeholder` share `cdd2219292f4ac15f1856c5fbdafe5acdd14936710508edc47701c6aec423177` because their flakes depend on `flake-utils`.
+  - Updated canonical, mirrored, and root status surfaces so they no longer claim Nix is blocked or pending.
+- validation:
+  - `/nix/var/nix/profiles/default/bin/nix --version` -> `nix (Nix) 2.34.5`
+  - `/nix/var/nix/profiles/default/bin/nix --extra-experimental-features 'nix-command flakes' flake show` in `stakeholder-core`
+  - `/nix/var/nix/profiles/default/bin/nix --extra-experimental-features 'nix-command flakes' flake lock` in each active repo
+  - post-run lock verification via `shasum -a 256 */flake.lock` for the active repo set
+- next:
+  - keep the publication hold unchanged until at least 10 new full rewrites with tests are complete
+  - keep `flake.lock` normalized as additional active repos are promoted
+  - continue the readiness-first queue with `nim-stakeholder` next
+
+### 2026-04-09-014
+
+- id: `2026-04-09-014`
+- timestamp: `2026-04-09 22:14 CEST`
+- scope: `nim local full rewrite validation + status sync`
+- repos:
+  - `nim-stakeholder`
+  - `stakeholder-core`
+  - `center-ring`
+  - workspace root summary docs
+- changes:
+  - Promoted `crystal-stakeholder` from scaffold-only into the seventh validated wider-matrix repo with local full classic-six plus modern-core depth.
+  - Updated the canonical, mirrored, and root status surfaces so the readiness-first queue now tips at `lua-stakeholder` while the 10-rewrite publication hold remains unchanged.
+  - Recorded the nim tranche as a validated local full rewrite and kept the shared Nix/flake normalization state visible in the planning docs.
+- validation:
+  - `nimpretty --check`
+  - `nim check src/stakeholder.nim`
+  - `nim c src/stakeholder.nim`
+  - `nimble test`
+  - `docker build -t nim-stakeholder .`
+  - `docker run --rm nim-stakeholder --list-values`
+- next:
+  - keep `crystal-stakeholder` local-only for publication until the 10-rewrite threshold is met
+  - start `lua-stakeholder` as the next readiness-first full local rewrite tranche

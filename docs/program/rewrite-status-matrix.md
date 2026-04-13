@@ -1,6 +1,6 @@
 # Rewrite status matrix
 
-Last updated: 2026-04-09 21:47 CEST
+Last updated: 2026-04-09 22:14 CEST
 
 ## Meaning
 - `phaseTarget`: the committed role that the repo is currently expected to complete.
@@ -27,9 +27,9 @@ Last updated: 2026-04-09 21:47 CEST
 | `haskell-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `kotlin-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `elixir-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
+| `nim-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `ocaml-stakeholder` | `scaffold-ready-local-only` | `not-started` | 0 | `local-only` | 12 | 12 | 3 | `main` |
-| `nim-stakeholder` | `scaffold-ready-local-only` | `not-started` | 0 | `local-only` | 12 | 12 | 3 | `main` |
-| `crystal-stakeholder` | `scaffold-ready-local-only` | `not-started` | 0 | `local-only` | 12 | 12 | 3 | `main` |
+| `crystal-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `dart-stakeholder` | `scaffold-ready-local-only` | `not-started` | 0 | `local-only` | 12 | 12 | 3 | `main` |
 | `lua-stakeholder` | `scaffold-ready-local-only` | `not-started` | 0 | `local-only` | 12 | 12 | 3 | `main` |
 | `gleam-stakeholder` | `scaffold-ready-local-only` | `not-started` | 0 | `local-only` | 12 | 12 | 3 | `main` |
@@ -37,9 +37,9 @@ Last updated: 2026-04-09 21:47 CEST
 
 ## Publication guardrail
 - Wider-matrix repos are intentionally local-only until they have meaningful implementation depth.
-- `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, and `elixir-stakeholder` all meet their local technical validation bars, but publication remains intentionally deferred until at least 10 new full rewrites with tests are complete.
+- `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, and `crystal-stakeholder` all meet their local technical validation bars, but publication remains intentionally deferred until at least 10 new full rewrites with tests are complete.
 - JavaScript and Java are the co-equal provider-runtime lanes in canonical planning; deterministic CI remains provider-free.
-- The local toolchain baseline has advanced via Homebrew for the shared language/tooling set, while `ghcup` now pins native Haskell validation and `nix` remains pending.
-- `ocamlformat` is installed locally via `opam`, so `nix` remains the remaining major blocker, with any future repo-specific package-manager follow-ons handled as they arise.
+- The local toolchain baseline has advanced via Homebrew for the shared language/tooling set, while `ghcup` now pins native Haskell validation and `nix` is installed.
+- `ocamlformat` is installed locally via `opam`, and `flake.lock` is normalized across the active repo set with the intentional second lock shape preserved in `zig-stakeholder` and `haskell-stakeholder`.
 - Exact GitHub required-check binding still waits for stable remote CI contexts after the first push.
 - `zig-stakeholder` remains Docker-validated locally but host-native Zig build/test stays environment-blocked on this workstation.

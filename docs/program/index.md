@@ -13,8 +13,8 @@ This section is the mirrored planning surface for the stakeholder rewrite progra
 2. `stakeholder-core` owns the canonical phase/program status model and `center-ring` mirrors it.
 3. `javascript-stakeholder` and `java-stakeholder` are co-equal provider runtimes, with `java-stakeholder` now implemented and Docker-validated locally.
 4. `.NET`, Go, Python, and Swift remain the closed and validated follower baseline.
-5. `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, and `kotlin-stakeholder` are the locally validated wider-matrix set, all held back from publication.
-6. Readiness-first queue after the active-repo completion wave: `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, `gleam-stakeholder`, `ocaml-stakeholder`.
+5. `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, and `elixir-stakeholder` are the locally validated wider-matrix set, all held back from publication.
+6. Readiness-first queue after the active-repo completion wave: `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, `gleam-stakeholder`, `ocaml-stakeholder`.
 7. Publication remains held until at least 10 new full rewrites with tests are complete.
 
 ## Model
@@ -25,7 +25,8 @@ This section is the mirrored planning surface for the stakeholder rewrite progra
 ## Toolchain baseline
 - Homebrew advanced the local baseline for `ghc`, `cabal-install`, `hlint`, `kotlin`, `gradle`, `opam`, `dune`, `nim`, `crystal`, `gleam`, `luarocks`, and `stylua`.
 - `ghcup` pins Haskell validation to `ghc-9.6.7`.
-- `nix` remains pending through the official multi-user macOS installer and is still blocked in this PTY because sudo is unavailable here.
+- `nix` is installed through the official multi-user macOS installer and `flake.lock` is normalized across the active repo set.
+- The standard lock shape is shared by `stakeholder-core`, `center-ring`, `javascript-stakeholder`, `java-stakeholder`, `.NET`, Go, Python, Swift, `fsharp-stakeholder`, `kotlin-stakeholder`, and `elixir-stakeholder`; `zig-stakeholder` and `haskell-stakeholder` intentionally carry a second shared lock shape because their flakes depend on `flake-utils`.
 
 ## Detailed entry points
 - [`current-wave.md`](current-wave.md)

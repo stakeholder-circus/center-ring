@@ -1,11 +1,12 @@
 # Validation Matrix
 
-Last updated: 2026-04-09 21:47 CEST
+Last updated: 2026-04-09 22:14 CEST
 
 ## Notes
 - Validation evidence is intentionally separate from phase/program completeness.
 - Phase/program completeness is tracked in `stakeholder-core/docs/program/rewrite-status-matrix.md` and mirrored under `center-ring/docs/program/`.
 - This matrix records validation evidence only.
+- `nix` 2.34.5 is active through the official multi-user macOS install, and `flake.lock` is normalized across every active repo in scope for this wave.
 
 | Repo | Target slice | Status | Evidence |
 |---|---|---|---|
@@ -20,3 +21,4 @@ Last updated: 2026-04-09 21:47 CEST
 | `haskell-stakeholder` | wider-matrix local full rewrite tranche | `pass` | `python3 scripts/validate_scaffold.py`, `fourmolu -m check app src test`, and `hlint .` all passed; native validation passed via `ghcup run --ghc 9.6.7 -- cabal build all` and `ghcup run --ghc 9.6.7 -- cabal test all` with `14` tests passing; `docker build -t haskell-stakeholder .` passed and included in-image `cabal build all` plus `cabal test all`; Docker runtime smokes passed for `--list-values`, representative classic-six and modern-core JSON output, deterministic same-seed output, and experimental-provider fail-fast |
 | `kotlin-stakeholder` | wider-matrix local full rewrite tranche | `pass` | `python3 scripts/validate_scaffold.py` passed; native `./gradlew --no-daemon ktlintCheck build test` passed; `docker build -t kotlin-stakeholder .` passed; Docker runtime smokes passed for `--list-values`, `code_analyzer` JSON, `data_processing` JSON, `delivery_preview_ops` JSON, deterministic same-seed `platform_engineering`, and experimental-provider fail-fast |
 | `elixir-stakeholder` | wider-matrix local full rewrite tranche | `pass` | `python3 scripts/validate_scaffold.py`, `mix local.hex --force`, `mix local.rebar --force`, `mix deps.get`, `mix format --check-formatted`, `mix credo --strict`, and `mix test` all passed natively with `14` tests; `docker build -t elixir-stakeholder .` passed; Docker runtime smokes passed for `--list-values`, representative classic-six and modern-core JSON output, deterministic same-seed output, and experimental-provider fail-fast |
+| `nim-stakeholder` | wider-matrix local full rewrite tranche | `pass` | `nimpretty --check`, `nim check src/stakeholder.nim`, `nim c src/stakeholder.nim`, `nimble test`, `docker build -t nim-stakeholder .`, and `docker run --rm nim-stakeholder --list-values` passed locally, confirming the sixth validated wider-matrix repo while publication remains held at the 10-rewrite guardrail |

@@ -1,6 +1,6 @@
 # Repo sequencing
 
-Last updated: 2026-04-09 21:47 CEST
+Last updated: 2026-04-09 22:14 CEST
 
 ## Frozen anchors
 - `rust-stakeholder` stays the canonical baseline on `master`.
@@ -25,6 +25,8 @@ The locally validated wider-matrix set is now:
 3. `haskell-stakeholder`
 4. `kotlin-stakeholder`
 5. `elixir-stakeholder`
+6. `nim-stakeholder`
+7. `crystal-stakeholder`
 
 Current state by repo:
 - `fsharp-stakeholder`: full classic-six plus full modern-core implemented locally; local first-push bar met; publication remains held until the 10-rewrite threshold is met.
@@ -32,15 +34,14 @@ Current state by repo:
 - `haskell-stakeholder`: full classic-six plus full modern-core implemented locally; native validation passed through `ghcup run --ghc 9.6.7`; Docker image build, in-image test, and runtime smokes passed; publication remains held until the 10-rewrite threshold is met.
 - `kotlin-stakeholder`: full classic-six plus full modern-core implemented locally; native Gradle validation and Docker runtime smokes passed; publication remains held until the 10-rewrite threshold is met.
 - `elixir-stakeholder`: full classic-six plus full modern-core implemented locally; native Elixir validation and Docker runtime smokes passed; publication remains held until the 10-rewrite threshold is met.
+- `nim-stakeholder`: full classic-six plus full modern-core implemented locally; native Nim validation and Docker runtime smokes passed; publication remains held until the 10-rewrite threshold is met.
+- `crystal-stakeholder`: full classic-six plus full modern-core implemented locally; native Crystal validation and Docker runtime smokes passed; publication remains held until the 10-rewrite threshold is met.
 
 ## Ready-first queue after the active wave
-After `elixir-stakeholder`, the queue remains:
-1. `nim-stakeholder`
-2. `crystal-stakeholder`
-3. `lua-stakeholder`
-4. `dart-stakeholder`
-5. `gleam-stakeholder`
-6. `ocaml-stakeholder`
+The next queue tip is `lua-stakeholder`, followed by:
+1. `dart-stakeholder`
+2. `gleam-stakeholder`
+3. `ocaml-stakeholder`
 
 ## Sidecar lane
 `javascript-stakeholder` continues independently with:
@@ -59,6 +60,6 @@ It does not become the parity template for follower deterministic depth.
 
 ## Publication rules
 - No wider-matrix repo gets a remote or first push before it is minimally real.
-- `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, and `elixir-stakeholder` remain unpublished because publication is intentionally deferred until at least 10 new full rewrites with tests are complete.
+- `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, and `crystal-stakeholder` remain unpublished because publication is intentionally deferred until at least 10 new full rewrites with tests are complete.
 - Exact GitHub required checks are bound only after the first stable CI pass on the pushed repo.
 - No provider-runtime implementation work is added outside `javascript-stakeholder` and `java-stakeholder` during this tranche.
