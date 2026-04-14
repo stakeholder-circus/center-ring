@@ -11,7 +11,7 @@ Last updated: 2026-04-14 CEST
 - Workspace-root summary files were relocated into tracked canonical files under `stakeholder-core` and mirrored under `center-ring`.
 - Current state: the publication-governance wave is active but externally blocked, `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder` remain the live-provider/runtime lanes, `.NET`, Go, Python, and Swift remain the closed validated follower baseline, and the validated wider-matrix set is `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, and `gleam-stakeholder`.
 - The widening threshold is satisfied at `10/10` validated wider-matrix rewrites.
-- Next active local implementation lane: tranche A of the next-20 wave. `ocaml-stakeholder`, `typescript-stakeholder`, and `ruby-stakeholder` are already validated locally; `erlang-stakeholder` and `scala-stakeholder` remain open in this tranche.
+- Next active local implementation lane: tranche A of the next-20 wave. `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, and `erlang-stakeholder` are already validated locally; `scala-stakeholder` remains open in this tranche.
 - Remaining local-only repos are tracked in [`stakeholder-core/docs/program/next-20-wave.md`](/Users/davidsupan/shareholder/stakeholder-core/docs/program/next-20-wave.md); `zeta-stakeholder` remains spike-only.
 - The phase/program completeness model is authoritative in the canonical and mirrored ledgers.
 - `nix` is installed through the official multi-user macOS path and `flake.lock` is normalized across the active repo set.
