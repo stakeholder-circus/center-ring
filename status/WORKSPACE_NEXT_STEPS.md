@@ -1,5 +1,5 @@
 # Next Steps
 
-1. Run the publication/governance wave for the ten validated wider-matrix repos.
-2. Keep hardening the API-backed and consumer-session live-provider/runtime lanes in `rust-stakeholder`, `java-stakeholder`, and `javascript-stakeholder`.
-3. After the publication/governance wave closes, start `ocaml-stakeholder`.
+1. Close tranche A of the next-20 deterministic wave: `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, and `scala-stakeholder`.
+2. Resume the publication/governance wave for the ten validated wider-matrix repos as soon as GitHub org access and authenticated `gh` are available.
+3. Keep hardening the API-backed and consumer-session live-provider/runtime lanes in `rust-stakeholder`, `java-stakeholder`, and `javascript-stakeholder`.

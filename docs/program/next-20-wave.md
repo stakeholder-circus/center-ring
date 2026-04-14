@@ -1,8 +1,9 @@
 # Next 20 wave
 
-- Status: local scaffold prep complete; implementation not started
+- Status: local scaffold prep and bounded toolchain proofs are complete; tranche A implementation is in progress
 - Publication dependency: current publication/governance wave is blocked on missing stakeholder-circus org access and unauthenticated gh
 - Selected 20 repos are prepared locally with no upstream tracking
+- Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`
 
 ## Tranches
 ### Tranche A
@@ -70,5 +71,4 @@
 ## Current blockers
 - `stakeholder-circus` org access is not available via the GitHub connector in this environment.
 - `gh` is installed but unauthenticated, so remote creation is blocked.
-- `php-stakeholder` is conditional on a single repair attempt; otherwise replace it with `objective-c-stakeholder`.
-
+- Publication remains the only external blocker; local tranche-A implementation is proceeding in parallel.
