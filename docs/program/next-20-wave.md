@@ -1,10 +1,10 @@
 # Next 20 wave
 
-- Status: local scaffold prep and bounded toolchain proofs are complete; tranche A is in progress with `ocaml`, `typescript`, `ruby`, and `erlang` already validated locally
+- Status: local scaffold prep and bounded toolchain proofs are complete; tranche A is closed locally with `ocaml`, `typescript`, `ruby`, `erlang`, and `scala` validated, and tranche B is now active
 - Publication dependency: current publication/governance wave is blocked on missing stakeholder-circus org access and unauthenticated gh
 - Selected 20 repos are prepared locally with no upstream tracking
 - Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`
-- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, and `erlang-stakeholder`
+- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, and `scala-stakeholder`
 
 ## Tranches
 ### Tranche A

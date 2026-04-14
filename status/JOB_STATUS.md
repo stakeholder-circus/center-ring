@@ -17,8 +17,10 @@ Owner: Codex agent
   - validated `lua-stakeholder` natively and through Docker, making it the eighth validated wider-matrix repo and shifting the next readiness-first tranche to `dart-stakeholder`
   - validated `dart-stakeholder` natively, through Docker, and through `nix run .#check`, making it the ninth validated wider-matrix repo and shifting the next readiness-first tranche to `gleam-stakeholder`
   - validated `gleam-stakeholder` natively, through Docker, and through `nix run .#check`, making it the tenth validated wider-matrix repo and closing the widening threshold
+  - validated `scala-stakeholder` natively and through Docker, closing tranche A of the next-20 deterministic wave and promoting tranche B to the next active local lane
 - Open in this slice:
-  - execute the batch publication/governance wave for the ten validated wider-matrix repos
+  - execute the batch publication/governance wave for the ten validated wider-matrix repos once org access and authenticated tooling are available
+  - continue tranche B of the next-20 deterministic wave beginning with `clojure-stakeholder` while publication remains blocked
   - keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`
   - bind exact GitHub required-check contexts only after the first stable remote CI pass exists
   - keep `flake.lock` normalized as additional repos enter the active set after the publication wave
@@ -28,10 +30,10 @@ Owner: Codex agent
 - The ten-rewrite threshold is satisfied, but the publication/governance wave has not yet been executed.
 - `nix` is installed locally through the official multi-user macOS installer.
 - `flake.lock` is normalized across the active repo set; `zig-stakeholder` and `haskell-stakeholder` intentionally carry a second lock variant because their flakes depend on `flake-utils`.
-- `ocaml-stakeholder` remains deferred until the publication/governance wave closes.
+- Tranche A of the next-20 deterministic wave is closed locally through `scala-stakeholder`; tranche B is next while publication remains externally blocked.
 
 ## Immediate next actions
 
-1. Run the publication/governance wave for `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, and `gleam-stakeholder`.
-2. Keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`.
-3. After the publication/governance wave closes, start `ocaml-stakeholder`.
+1. Start tranche B of the next-20 deterministic wave with `clojure-stakeholder` while publication remains externally blocked.
+2. Resume the publication/governance wave for `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, and `gleam-stakeholder` as soon as GitHub org access and authenticated tooling are available.
+3. Keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`.

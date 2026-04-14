@@ -2,6 +2,7 @@
 
 ## Current requirement
 - Finish the publication/governance wave for the ten validated wider-matrix repos once GitHub org access and authenticated tooling are available.
+- Continue local deterministic implementation in tranche B while publication remains externally blocked.
 
 ## Next 20 implementation order
 1. `ocaml-stakeholder`
