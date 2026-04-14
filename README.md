@@ -17,5 +17,9 @@ It holds the cross-repo governance baseline:
 - [`docs/program/current-wave.md`](docs/program/current-wave.md)
 - [`docs/program/language-horizon.md`](docs/program/language-horizon.md)
 - [`docs/program/governance-overlays.md`](docs/program/governance-overlays.md)
+- [`status/WORKSPACE_STATUS.md`](status/WORKSPACE_STATUS.md)
+- [`status/WORKSPACE_NEXT_STEPS.md`](status/WORKSPACE_NEXT_STEPS.md)
+- [`docs/program/WORKSPACE_PARITY_STATUS.md`](docs/program/WORKSPACE_PARITY_STATUS.md)
+- [`docs/program/WORKSPACE_COMPLETE.md`](docs/program/WORKSPACE_COMPLETE.md)
 
 Language implementations continue to live in their own `stakeholder-circus/*-stakeholder` repositories.

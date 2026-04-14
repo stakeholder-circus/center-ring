@@ -9,12 +9,12 @@ This section is the mirrored planning surface for the stakeholder rewrite progra
 - `stakeholder-core/data/program-doc-hashes.json`
 
 ## Current sequencing
-1. Rust stays canonical and frozen.
+1. Rust stays canonical and is no longer treated as permanently frozen; it must also reach the full live-provider/runtime surface.
 2. `stakeholder-core` owns the canonical phase/program status model and `center-ring` mirrors it.
-3. `javascript-stakeholder` and `java-stakeholder` are co-equal provider runtimes, with `java-stakeholder` now implemented and Docker-validated locally.
+3. `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder` are the active live-provider/runtime lanes, with Rust already carrying the expanded deterministic generator surface and experimental provider models but still missing guarded runtime wiring.
 4. `.NET`, Go, Python, and Swift remain the closed and validated follower baseline.
-5. `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, and `elixir-stakeholder` are the locally validated wider-matrix set, all held back from publication.
-6. Readiness-first queue after the active-repo completion wave: `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, `gleam-stakeholder`, `ocaml-stakeholder`.
+5. `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, and `crystal-stakeholder` are the locally validated wider-matrix set, all held back from publication.
+6. Readiness-first queue after the active-repo completion wave: `lua-stakeholder`, `dart-stakeholder`, `gleam-stakeholder`, `ocaml-stakeholder`.
 7. Publication remains held until at least 10 new full rewrites with tests are complete.
 
 ## Model
@@ -36,6 +36,12 @@ This section is the mirrored planning surface for the stakeholder rewrite progra
 - [`interop-roadmap.md`](interop-roadmap.md)
 - [`rewrite-status-matrix.md`](rewrite-status-matrix.md)
 - [`next-100-languages.md`](next-100-languages.md)
+
+## Tracked workspace summaries
+- [`WORKSPACE_STATUS.md`](/Users/davidsupan/shareholder/center-ring/status/WORKSPACE_STATUS.md)
+- [`WORKSPACE_NEXT_STEPS.md`](/Users/davidsupan/shareholder/center-ring/status/WORKSPACE_NEXT_STEPS.md)
+- [`WORKSPACE_PARITY_STATUS.md`](WORKSPACE_PARITY_STATUS.md)
+- [`WORKSPACE_COMPLETE.md`](WORKSPACE_COMPLETE.md)
 
 ## Mirror
 This umbrella mirror must remain synchronized with `stakeholder-core/docs/program/`.
