@@ -3,11 +3,11 @@
   "mirroredDocs": [
     {
       "path": "docs/program/current-wave.md",
-      "sha256": "190abb9c55b17e055a30edb0ae831f7d703788e453a40102c3c47f5563f4bf1d"
+      "sha256": "aa222503fb91dcc0b2c3267f015e033904a46a8dc747bc25f83a8393f394edb2"
     },
     {
       "path": "docs/program/repo-sequencing.md",
-      "sha256": "adc09cc53458d89f3155b69a34054ab80e52ef70972162eaed99b49f8bdcf31f"
+      "sha256": "aedea32913bf44b4f6dd4224e1e9df6f9ecb798c65eec49865f3538e4d21d8d9"
     },
     {
       "path": "docs/program/language-horizon.md",
@@ -15,11 +15,11 @@
     },
     {
       "path": "docs/program/github-governance-state.md",
-      "sha256": "18f7bce2b7c2fff182cf2bdf48a25cc7fbc52a0df40310e19ddc87749cb8ca34"
+      "sha256": "887903cf0aa5cff08c3d53816457f060334cc5a0be5ad7bf17f172473fe5d369"
     },
     {
       "path": "docs/program/rewrite-status-matrix.md",
-      "sha256": "478967b97f008eeef86c16bb3f5e44bb267a340a0cd1b96628568afcfc48082f"
+      "sha256": "918f6d8a448f47352980395cce23f5d4294cee15e3d260edd10d509e3ca02753"
     }
   ]
 }
