@@ -18,9 +18,10 @@ Owner: Codex agent
   - validated `dart-stakeholder` natively, through Docker, and through `nix run .#check`, making it the ninth validated wider-matrix repo and shifting the next readiness-first tranche to `gleam-stakeholder`
   - validated `gleam-stakeholder` natively, through Docker, and through `nix run .#check`, making it the tenth validated wider-matrix repo and closing the widening threshold
   - validated `scala-stakeholder` natively and through Docker, closing tranche A of the next-20 deterministic wave and promoting tranche B to the next active local lane
+  - completed native validation for `clojure-stakeholder`; Docker validation remains blocked by the unavailable local Docker daemon
 - Open in this slice:
   - execute the batch publication/governance wave for the ten validated wider-matrix repos once org access and authenticated tooling are available
-  - continue tranche B of the next-20 deterministic wave beginning with `clojure-stakeholder` while publication remains blocked
+  - run `clojure-stakeholder` Docker validation when Docker is available, then continue tranche B with `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, and `perl-stakeholder`
   - keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`
   - bind exact GitHub required-check contexts only after the first stable remote CI pass exists
   - keep `flake.lock` normalized as additional repos enter the active set after the publication wave
@@ -34,6 +35,6 @@ Owner: Codex agent
 
 ## Immediate next actions
 
-1. Start tranche B of the next-20 deterministic wave with `clojure-stakeholder` while publication remains externally blocked.
+1. Run the blocked Docker validation for `clojure-stakeholder` when Docker is available, then promote it to fully validated.
 2. Resume the publication/governance wave for `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, and `gleam-stakeholder` as soon as GitHub org access and authenticated tooling are available.
 3. Keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`.
