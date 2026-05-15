@@ -19,9 +19,10 @@ Owner: Codex agent
   - validated `gleam-stakeholder` natively, through Docker, and through `nix run .#check`, making it the tenth validated wider-matrix repo and closing the widening threshold
   - validated `scala-stakeholder` natively and through Docker, closing tranche A of the next-20 deterministic wave and promoting tranche B to the next active local lane
   - validated `clojure-stakeholder` natively and through Docker, promoting it to fully validated in tranche B
+  - validated `perl-stakeholder` natively and through Docker, promoting it to fully validated in tranche B
 - Open in this slice:
   - execute the batch publication/governance wave for the ten validated wider-matrix repos once org access and authenticated tooling are available
-  - continue tranche B with `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, and `perl-stakeholder`
+  - continue tranche B with `c-stakeholder`, `cpp-stakeholder`, and `powershell-stakeholder`
   - keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`
   - bind exact GitHub required-check contexts only after the first stable remote CI pass exists
   - keep `flake.lock` normalized as additional repos enter the active set after the publication wave
@@ -35,6 +36,6 @@ Owner: Codex agent
 
 ## Immediate next actions
 
-1. Continue tranche B with `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, and `perl-stakeholder`.
+1. Continue tranche B with `c-stakeholder`, `cpp-stakeholder`, and `powershell-stakeholder`.
 2. Resume the publication/governance wave for `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, and `gleam-stakeholder` as soon as GitHub org access and authenticated tooling are available.
 3. Keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`.
