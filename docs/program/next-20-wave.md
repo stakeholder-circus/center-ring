@@ -1,10 +1,10 @@
 # Next 20 wave
 
-- Status: local scaffold prep and bounded toolchain proofs are complete; tranche A is closed locally, tranche B is active, and `clojure-stakeholder` is native-validated but awaiting Docker validation
+- Status: local scaffold prep and bounded toolchain proofs are complete; tranche A is closed locally, tranche B is active, and `clojure-stakeholder` is fully validated locally
 - Publication dependency: current publication/governance wave is blocked on missing stakeholder-circus org access and unauthenticated gh
 - Selected 20 repos are prepared locally with no upstream tracking
 - Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`
-- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, and `scala-stakeholder`; `clojure-stakeholder` has native validation only because Docker is unavailable
+- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, `scala-stakeholder`, and `clojure-stakeholder`
 
 ## Tranches
 ### Tranche A
@@ -72,4 +72,4 @@
 ## Current blockers
 - `stakeholder-circus` org access is not available via the GitHub connector in this environment.
 - `gh` is installed but unauthenticated, so remote creation is blocked.
-- Publication remains externally blocked; Docker is also unavailable locally, so `clojure-stakeholder` cannot be marked fully validated yet.
+- Publication remains externally blocked; tranche B continues with `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, and `perl-stakeholder`.
