@@ -23,9 +23,10 @@ Owner: Codex agent
   - validated `cpp-stakeholder` natively and through Docker, closing tranche B locally
   - validated `powershell-stakeholder` natively and through Docker, promoting it to fully validated in tranche B
   - validated `perl-stakeholder` natively and through Docker, promoting it to fully validated in tranche B
+  - validated `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, and `tcl-stakeholder` natively and through Docker, closing tranche C locally
 - Open in this slice:
   - execute the batch publication/governance wave for the ten validated wider-matrix repos once org access and authenticated tooling are available
-  - start tranche C with `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, and `tcl-stakeholder`
+  - start tranche D with `d-stakeholder`, `rescript-stakeholder`, `fortran-stakeholder`, `bash-stakeholder`, and `php-stakeholder`
   - keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`
   - bind exact GitHub required-check contexts only after the first stable remote CI pass exists
   - keep `flake.lock` normalized as additional repos enter the active set after the publication wave
@@ -35,10 +36,10 @@ Owner: Codex agent
 - The ten-rewrite threshold is satisfied, but the publication/governance wave has not yet been executed.
 - `nix` is installed locally through the official multi-user macOS installer.
 - `flake.lock` is normalized across the active repo set; `zig-stakeholder` and `haskell-stakeholder` intentionally carry a second lock variant because their flakes depend on `flake-utils`.
-- Tranches A and B of the next-20 deterministic wave are closed locally while publication remains externally blocked.
+- Tranches A, B, and C of the next-20 deterministic wave are closed locally while publication remains externally blocked.
 
 ## Immediate next actions
 
-1. Start tranche C with `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, and `tcl-stakeholder`.
+1. Start tranche D with `d-stakeholder`, `rescript-stakeholder`, `fortran-stakeholder`, `bash-stakeholder`, and `php-stakeholder`.
 2. Resume the publication/governance wave for `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, `crystal-stakeholder`, `lua-stakeholder`, `dart-stakeholder`, and `gleam-stakeholder` as soon as GitHub org access and authenticated tooling are available.
 3. Keep hardening the API-backed and consumer-session live-provider/runtime paths across `rust-stakeholder`, `javascript-stakeholder`, and `java-stakeholder`.

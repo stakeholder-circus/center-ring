@@ -1,10 +1,10 @@
 # Next 20 wave
 
-- Status: local scaffold prep and bounded toolchain proofs are complete; tranches A and B are closed locally, and tranche C is the next active local lane
+- Status: local scaffold prep and bounded toolchain proofs are complete; tranches A, B, and C are closed locally, and tranche D is the next active local lane
 - Publication dependency: current publication/governance wave is blocked on missing stakeholder-circus org access and unauthenticated gh
 - Selected 20 repos are prepared locally with no upstream tracking
 - Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`
-- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, `scala-stakeholder`, `clojure-stakeholder`, `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, and `perl-stakeholder`
+- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, `scala-stakeholder`, `clojure-stakeholder`, `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, `perl-stakeholder`, `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, and `tcl-stakeholder`
 
 ## Tranches
 ### Tranche A
@@ -72,4 +72,4 @@
 ## Current blockers
 - `stakeholder-circus` org access is not available via the GitHub connector in this environment.
 - `gh` is installed but unauthenticated, so remote creation is blocked.
-- Publication remains externally blocked; tranche C is next with `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, and `tcl-stakeholder`.
+- Publication remains externally blocked; tranche D is next with `d-stakeholder`, `rescript-stakeholder`, `fortran-stakeholder`, `bash-stakeholder`, and `php-stakeholder`.
