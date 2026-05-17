@@ -1,10 +1,10 @@
 # Next 20 wave
 
-- Status: local scaffold prep is complete; tranches A, B, and C are closed locally; tranche D has `d-stakeholder`, `rescript-stakeholder`, and `php-stakeholder` validated with `fortran-stakeholder` and `bash-stakeholder` still pending.
+- Status: local scaffold prep is complete and all four next-20 deterministic tranches are closed locally.
+- Result: 20/20 selected next-20 repos have native plus Docker deterministic first-tranche validation evidence.
 - Publication dependency: GitHub authentication is available, but publication is intentionally gated through `stakeholder release ... --execute` after validation and CI checks.
 - Selected 20 repos are prepared locally with no upstream tracking.
-- Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`.
-- Local tranche validations have landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, `scala-stakeholder`, `clojure-stakeholder`, `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, `perl-stakeholder`, `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, `tcl-stakeholder`, `d-stakeholder`, `rescript-stakeholder`, and `php-stakeholder`.
+- Full live-provider/runtime support remains deferred to the later provider rollout wave.
 
 ## Tranches
 
@@ -66,11 +66,11 @@
 - `tcl-stakeholder`: `brew` (implemented-local-validated)
 - `d-stakeholder`: `brew` (implemented-local-validated)
 - `rescript-stakeholder`: `repo-local-pnpm` (implemented-local-validated)
-- `fortran-stakeholder`: `built-in` (scaffold-ready-local-only)
-- `bash-stakeholder`: `built-in` (scaffold-ready-local-only)
+- `fortran-stakeholder`: `built-in` (implemented-local-validated)
+- `bash-stakeholder`: `built-in` (implemented-local-validated)
 - `php-stakeholder`: `brew` (implemented-local-validated)
 
 ## Current blockers
-- `fortran-stakeholder` and `bash-stakeholder` still need deterministic first-tranche implementation and native plus Docker validation.
+- No next-20 deterministic first-tranche implementation blocker remains.
 - Publication is no longer blocked by local `gh` authentication, but it remains intentionally gated through `stakeholder release ... --execute` after repo-local validation, remote/CI evidence, and required-check decisions.
 - Full live-provider/runtime support remains deferred to the later provider rollout wave.

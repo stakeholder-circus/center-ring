@@ -13,7 +13,7 @@ Last updated: 2026-05-17 CEST
 ## Current matrix
 | Repo | Phase target | Phase state | Phase % | Program state | Program % | Legacy rewrite % | Legacy functionality % | Default branch |
 |---|---|---|---:|---|---:|---:|---:|---|
-| `bash-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `bash-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `c-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `center-ring` | `mirrored-governance-and-workflow-baseline` | `complete` | 100 | `mirror-and-governance-baseline-active` | 82 | 82 | 76 | `main` |
 | `clojure-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
@@ -24,7 +24,7 @@ Last updated: 2026-05-17 CEST
 | `dotnet-stakeholder` | `validated-follower-modern-core-baseline` | `complete` | 100 | `follower-modern-core-validated` | 58 | 58 | 52 | `main` |
 | `elixir-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `erlang-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
-| `fortran-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `fortran-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `fsharp-stakeholder` | `first-push-ready-wider-matrix` | `complete` | 100 | `publication-held` | 54 | 54 | 48 | `main` |
 | `gleam-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `go-stakeholder` | `validated-follower-modern-core-baseline` | `complete` | 100 | `follower-modern-core-validated` | 58 | 58 | 52 | `main` |
@@ -57,6 +57,6 @@ Last updated: 2026-05-17 CEST
 ## Publication guardrail
 - The managed default branch may differ from the active local baseline branch.
 - The original ten validated wider-matrix repos remain publication-held while guarded remote publication and CI binding are executed deliberately.
-- The next-20 local sprint now has 18 deterministic first-tranche repos validated; `fortran-stakeholder` and `bash-stakeholder` remain Tranche D implementation targets.
-- All publication mutation must go through `stakeholder release ... --execute`; read-only manager status and feature commands are safe across `all`.
+- The next-20 local deterministic first-tranche sprint is now 20/20 locally validated.
+- All publication mutation must go through `stakeholder release ... --execute`; read-only manager status, horizon, and feature commands are safe across `all`.
 - Full live-provider/runtime support remains the required second-pass wave for every language.

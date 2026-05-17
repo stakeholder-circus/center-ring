@@ -1,9 +1,10 @@
 # Repo sequencing
 
 ## Current requirement
-- Use `stakeholder-manager` for read-only all-target status/features and guarded release planning.
-- Finish the publication/governance wave for the original ten validated wider-matrix repos only through explicit `stakeholder release ... --execute` actions after validation and CI evidence.
-- Continue local deterministic Tranche D implementation for `fortran-stakeholder` and `bash-stakeholder`; do not widen further until those are closed or explicitly deferred.
+- Use `stakeholder-manager` for read-only all-target status, horizon, and feature views.
+- Run publication/governance dry-runs for the original ten validated wider-matrix repos before any push.
+- Publish only through explicit `stakeholder release ... --execute` actions after validation and CI evidence.
+- Do not widen beyond the next-20 set until publication governance and second-pass provider planning are deliberate.
 
 ## Next 20 implementation order
 1. `ocaml-stakeholder`
@@ -28,8 +29,8 @@
 20. `php-stakeholder`
 
 ## Current next-20 state
-- Validated locally: 18 of 20.
-- Remaining Tranche D implementation targets: `fortran-stakeholder`, `bash-stakeholder`.
+- Validated locally: 20 of 20.
+- Remaining deterministic implementation targets: none.
 - Publication mutation is not a default action; it requires the guarded manager release command with `--execute`.
 
 ## Reserve replacements
