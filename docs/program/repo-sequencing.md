@@ -2,9 +2,11 @@
 
 ## Current requirement
 - Use `stakeholder-manager` for read-only all-target status, horizon, and feature views.
+- Use [language-horizon.md](language-horizon.md) as the 250-language research horizon and [next-20-wave.md](next-20-wave.md) as the concrete batch source.
 - Run publication/governance dry-runs for the original ten validated wider-matrix repos before any push.
 - Publish only through explicit `stakeholder release ... --execute` actions after validation and CI evidence.
 - Do not widen beyond the next-20 set until publication governance and second-pass provider planning are deliberate.
+- Select future 20-repo batches from reviewed horizon candidates only after factory dry-run evidence is accepted.
 
 ## Next 20 implementation order
 1. `ocaml-stakeholder`

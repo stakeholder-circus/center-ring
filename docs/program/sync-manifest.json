@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-05-17 19:40 CEST",
   "mirroredDocs": [
     {
       "path": "docs/program/current-wave.md",
-      "sha256": "846f0301466bd2cce42cd549e796abecff95dfdcb19ccbbaf526250e2f78f791"
+      "sha256": "8ee46e4e009afde13d85538929514af03117304c2d2f3621a75197ad2afef030"
     },
     {
       "path": "docs/program/repo-sequencing.md",
-      "sha256": "672be51401cda5e3c750ea0f4f803e29b120b3145084cae5c56702c09f10d78a"
+      "sha256": "958adce1b4f7b195941226931d7ddba1e41ea8db48f47328d09ed1e584119e59"
     },
     {
       "path": "docs/program/language-horizon.md",
-      "sha256": "0d50fcd31f8ede6169b7ba4402d67034e1baf6e06866ed60bd1b428fd21d234e"
+      "sha256": "bfa767b67cedae652cea2a4569e7e58af7cab548f3d89d52c849d77ff050a6fb"
     },
     {
       "path": "docs/program/github-governance-state.md",
