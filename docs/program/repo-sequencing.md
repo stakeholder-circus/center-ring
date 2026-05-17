@@ -7,6 +7,7 @@
 - Publish only through explicit `stakeholder release ... --execute` actions after validation and CI evidence.
 - Do not widen beyond the next-20 set until publication governance and second-pass provider planning are deliberate.
 - Select future 20-repo batches from reviewed horizon candidates only after factory dry-run evidence is accepted.
+- Treat the first horizon scaffold batch as local-only scaffold evidence, not deterministic runtime validation.
 
 ## Next 20 implementation order
 1. `ocaml-stakeholder`
@@ -35,8 +36,27 @@
 - Remaining deterministic implementation targets: none.
 - Publication mutation is not a default action; it requires the guarded manager release command with `--execute`.
 
-## Reserve replacements
-- `objective-c-stakeholder`
-- `v-stakeholder`
-- `common-lisp-stakeholder`
-- `ada-stakeholder`
+## First horizon scaffold batch
+- State: scaffolded local-only, not runtime-validated.
+- Runtime validation claim: none; these repos have local baseline scaffolds only.
+- Repo/language ids:
+  1. `v`
+  2. `objective-c`
+  3. `ada`
+  4. `cobol`
+  5. `common-lisp`
+  6. `raku`
+  7. `scheme`
+  8. `sml`
+  9. `elm`
+  10. `purescript`
+  11. `hack`
+  12. `smalltalk`
+  13. `prolog`
+  14. `solidity`
+  15. `move`
+  16. `cairo`
+  17. `motoko`
+  18. `ballerina`
+  19. `haxe`
+  20. `vala`
