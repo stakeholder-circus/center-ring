@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-15 00:00 CEST",
+  "generatedAt": "2026-05-17 18:40 CEST",
   "mirroredDocs": [
     {
       "path": "docs/program/current-wave.md",
-      "sha256": "f4fa1ca59555d28175c60050fe71abeeeddced3922362d1a0de8c42c47bd8588"
+      "sha256": "26e735f9b889348b0ab5fec4d968153f4c2f604d284a951ce540cc5cae09f0aa"
     },
     {
       "path": "docs/program/repo-sequencing.md",
-      "sha256": "456cf177a893bc90f18b0db073077c0abb3f56f921fee1572fa3d8610d870e1b"
+      "sha256": "8028469deafb253f213a23bacc6735cd2b24b4d73179c543b73e12cb342af17e"
     },
     {
       "path": "docs/program/language-horizon.md",

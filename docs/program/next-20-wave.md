@@ -1,12 +1,13 @@
 # Next 20 wave
 
-- Status: local scaffold prep and bounded toolchain proofs are complete; tranches A, B, and C are closed locally, and tranche D is the next active local lane
-- Publication dependency: current publication/governance wave is blocked on missing stakeholder-circus org access and unauthenticated gh
-- Selected 20 repos are prepared locally with no upstream tracking
-- Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`
-- Local tranche validations already landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, `scala-stakeholder`, `clojure-stakeholder`, `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, `perl-stakeholder`, `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, and `tcl-stakeholder`
+- Status: local scaffold prep is complete; tranches A, B, and C are closed locally; tranche D has `d-stakeholder`, `rescript-stakeholder`, and `php-stakeholder` validated with `fortran-stakeholder` and `bash-stakeholder` still pending.
+- Publication dependency: GitHub authentication is available, but publication is intentionally gated through `stakeholder release ... --execute` after validation and CI checks.
+- Selected 20 repos are prepared locally with no upstream tracking.
+- Toolchain proofs are closed for `typescript`, `rescript`, `clojure`, `powershell`, `julia`, `r`, `tcl`, `d`, and `php`.
+- Local tranche validations have landed for `ocaml-stakeholder`, `typescript-stakeholder`, `ruby-stakeholder`, `erlang-stakeholder`, `scala-stakeholder`, `clojure-stakeholder`, `c-stakeholder`, `cpp-stakeholder`, `powershell-stakeholder`, `perl-stakeholder`, `groovy-stakeholder`, `vbnet-stakeholder`, `julia-stakeholder`, `r-stakeholder`, `tcl-stakeholder`, `d-stakeholder`, `rescript-stakeholder`, and `php-stakeholder`.
 
 ## Tranches
+
 ### Tranche A
 
 - `ocaml-stakeholder`
@@ -48,28 +49,28 @@
 
 ## Toolchain sources
 
-- `ocaml-stakeholder`: `built-in`
-- `typescript-stakeholder`: `repo-local-pnpm`
-- `ruby-stakeholder`: `built-in-homebrew`
-- `erlang-stakeholder`: `built-in`
-- `scala-stakeholder`: `built-in`
-- `clojure-stakeholder`: `brew`
-- `c-stakeholder`: `built-in`
-- `cpp-stakeholder`: `built-in`
-- `powershell-stakeholder`: `built-in-plus-module`
-- `perl-stakeholder`: `built-in`
-- `groovy-stakeholder`: `built-in`
-- `vbnet-stakeholder`: `built-in-dotnet10`
-- `julia-stakeholder`: `brew`
-- `r-stakeholder`: `brew`
-- `tcl-stakeholder`: `brew`
-- `d-stakeholder`: `brew`
-- `rescript-stakeholder`: `repo-local-pnpm`
-- `fortran-stakeholder`: `built-in`
-- `bash-stakeholder`: `built-in`
-- `php-stakeholder`: `repair-brew`
+- `ocaml-stakeholder`: `built-in` (implemented-local-validated)
+- `typescript-stakeholder`: `repo-local-pnpm` (implemented-local-validated)
+- `ruby-stakeholder`: `built-in-homebrew` (implemented-local-validated)
+- `erlang-stakeholder`: `built-in` (implemented-local-validated)
+- `scala-stakeholder`: `built-in` (implemented-local-validated)
+- `clojure-stakeholder`: `brew` (implemented-local-validated)
+- `c-stakeholder`: `built-in` (implemented-local-validated)
+- `cpp-stakeholder`: `built-in` (implemented-local-validated)
+- `powershell-stakeholder`: `built-in-plus-module` (implemented-local-validated)
+- `perl-stakeholder`: `built-in` (implemented-local-validated)
+- `groovy-stakeholder`: `built-in` (implemented-local-validated)
+- `vbnet-stakeholder`: `built-in-dotnet10` (implemented-local-validated)
+- `julia-stakeholder`: `brew` (implemented-local-validated)
+- `r-stakeholder`: `brew` (implemented-local-validated)
+- `tcl-stakeholder`: `brew` (implemented-local-validated)
+- `d-stakeholder`: `brew` (implemented-local-validated)
+- `rescript-stakeholder`: `repo-local-pnpm` (implemented-local-validated)
+- `fortran-stakeholder`: `built-in` (scaffold-ready-local-only)
+- `bash-stakeholder`: `built-in` (scaffold-ready-local-only)
+- `php-stakeholder`: `brew` (implemented-local-validated)
 
 ## Current blockers
-- `stakeholder-circus` org access is not available via the GitHub connector in this environment.
-- `gh` is installed but unauthenticated, so remote creation is blocked.
-- Publication remains externally blocked; tranche D is next with `d-stakeholder`, `rescript-stakeholder`, `fortran-stakeholder`, `bash-stakeholder`, and `php-stakeholder`.
+- `fortran-stakeholder` and `bash-stakeholder` still need deterministic first-tranche implementation and native plus Docker validation.
+- Publication is no longer blocked by local `gh` authentication, but it remains intentionally gated through `stakeholder release ... --execute` after repo-local validation, remote/CI evidence, and required-check decisions.
+- Full live-provider/runtime support remains deferred to the later provider rollout wave.

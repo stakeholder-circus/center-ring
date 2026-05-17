@@ -1,8 +1,9 @@
 # Repo sequencing
 
 ## Current requirement
-- Finish the publication/governance wave for the ten validated wider-matrix repos once GitHub org access and authenticated tooling are available.
-- Continue local deterministic implementation in tranche B while publication remains externally blocked.
+- Use `stakeholder-manager` for read-only all-target status/features and guarded release planning.
+- Finish the publication/governance wave for the original ten validated wider-matrix repos only through explicit `stakeholder release ... --execute` actions after validation and CI evidence.
+- Continue local deterministic Tranche D implementation for `fortran-stakeholder` and `bash-stakeholder`; do not widen further until those are closed or explicitly deferred.
 
 ## Next 20 implementation order
 1. `ocaml-stakeholder`
@@ -25,6 +26,11 @@
 18. `fortran-stakeholder`
 19. `bash-stakeholder`
 20. `php-stakeholder`
+
+## Current next-20 state
+- Validated locally: 18 of 20.
+- Remaining Tranche D implementation targets: `fortran-stakeholder`, `bash-stakeholder`.
+- Publication mutation is not a default action; it requires the guarded manager release command with `--execute`.
 
 ## Reserve replacements
 - `objective-c-stakeholder`

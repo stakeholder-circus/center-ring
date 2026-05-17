@@ -1,6 +1,6 @@
 # Rewrite status matrix
 
-Last updated: 2026-04-14 CEST
+Last updated: 2026-05-17 CEST
 
 ## Meaning
 - `phaseTarget`: the committed role that the repo is currently expected to complete.
@@ -14,49 +14,49 @@ Last updated: 2026-04-14 CEST
 | Repo | Phase target | Phase state | Phase % | Program state | Program % | Legacy rewrite % | Legacy functionality % | Default branch |
 |---|---|---|---:|---|---:|---:|---:|---|
 | `bash-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `c-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `c-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `center-ring` | `mirrored-governance-and-workflow-baseline` | `complete` | 100 | `mirror-and-governance-baseline-active` | 82 | 82 | 76 | `main` |
-| `clojure-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `cpp-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `clojure-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `cpp-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `crystal-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
-| `d-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `d-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `dart-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `dotnet-stakeholder` | `validated-follower-modern-core-baseline` | `complete` | 100 | `follower-modern-core-validated` | 58 | 58 | 52 | `main` |
 | `elixir-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
-| `erlang-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `erlang-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `fortran-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
 | `fsharp-stakeholder` | `first-push-ready-wider-matrix` | `complete` | 100 | `publication-held` | 54 | 54 | 48 | `main` |
 | `gleam-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `go-stakeholder` | `validated-follower-modern-core-baseline` | `complete` | 100 | `follower-modern-core-validated` | 58 | 58 | 52 | `main` |
-| `groovy-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `groovy-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `haskell-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `java-stakeholder` | `co-equal-live-provider-runtime-lane` | `in-progress` | 88 | `full-generator-and-live-provider-target` | 96 | 96 | 92 | `main` |
 | `javascript-stakeholder` | `live-provider-runtime-and-web-terminal-lane` | `in-progress` | 84 | `full-generator-and-live-provider-target` | 82 | 82 | 78 | `main` |
-| `julia-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `julia-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `kotlin-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `lua-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
 | `nim-stakeholder` | `native-and-docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 58 | 58 | 54 | `main` |
-| `ocaml-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `perl-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `php-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `powershell-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `ocaml-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `perl-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `php-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `powershell-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `python-stakeholder` | `validated-follower-modern-core-baseline` | `complete` | 100 | `follower-modern-core-validated` | 58 | 58 | 52 | `main` |
-| `r-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `rescript-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `ruby-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `r-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `rescript-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `ruby-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `rust-stakeholder` | `canonical-live-provider-runtime-lane` | `in-progress` | 78 | `canonical-full-generator-and-live-provider-target` | 92 | 88 | 84 | `master` |
-| `scala-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `scala-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `stakeholder-core` | `canonical-docs-and-contract-baseline` | `complete` | 100 | `canonical-docs-and-contract-authority` | 90 | 90 | 88 | `main` |
 | `swift-stakeholder` | `validated-follower-modern-core-baseline` | `complete` | 100 | `follower-modern-core-validated` | 58 | 58 | 52 | `main` |
-| `tcl-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `typescript-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
-| `vbnet-stakeholder` | `scaffold-ready-local-only` | `complete` | 100 | `selected-next20-scaffold` | 12 | 12 | 3 | `main` |
+| `tcl-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `typescript-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
+| `vbnet-stakeholder` | `native-and-docker-validated-next20-deterministic-tranche` | `complete` | 100 | `deterministic-publication-held` | 58 | 58 | 54 | `main` |
 | `zeta-stakeholder` | `research-spike-local-only` | `not-started` | 0 | `spike-only` | 10 | 10 | 1 | `main` |
 | `zig-stakeholder` | `docker-validated-wider-matrix` | `complete` | 100 | `publication-held` | 26 | 26 | 18 | `main` |
 
 ## Publication guardrail
 - The managed default branch may differ from the active local baseline branch.
-- The current ten validated wider-matrix repos remain publication-held until stakeholder-circus org access and authenticated GitHub tooling are available.
-- The next-20 scaffold baseline is now prepared locally; implementation begins only after the publication/governance block is resolved or explicitly bypassed.
+- The original ten validated wider-matrix repos remain publication-held while guarded remote publication and CI binding are executed deliberately.
+- The next-20 local sprint now has 18 deterministic first-tranche repos validated; `fortran-stakeholder` and `bash-stakeholder` remain Tranche D implementation targets.
+- All publication mutation must go through `stakeholder release ... --execute`; read-only manager status and feature commands are safe across `all`.
 - Full live-provider/runtime support remains the required second-pass wave for every language.
-
