@@ -37,8 +37,9 @@
 - Publication mutation is not a default action; it requires the guarded manager release command with `--execute`.
 
 ## First horizon scaffold batch
-- State: scaffolded local-only, not runtime-validated.
-- Runtime validation claim: none; these repos have local baseline scaffolds only.
+- State: scaffolded local-only as a batch.
+- Small-tranche native validation: `objective-c-stakeholder` has the deterministic first tranche implemented and validated with Apple clang plus Foundation (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`).
+- Remaining runtime validation claim: none for the other 19 repos; they still have local baseline scaffolds only.
 - Repo/language ids:
   1. `v`
   2. `objective-c`
