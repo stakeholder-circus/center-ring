@@ -38,8 +38,8 @@
 
 ## First horizon scaffold batch
 - State: scaffolded local-only as a batch.
-- Small-tranche native validation: `objective-c-stakeholder` has the deterministic first tranche implemented and validated with Apple clang plus Foundation (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`); `common-lisp-stakeholder` has the deterministic first tranche implemented and validated with CLISP (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`); `scheme-stakeholder` has the deterministic first tranche implemented and validated with Chibi Scheme (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`).
-- Remaining runtime validation claim: none for the other 17 repos; they still have local baseline scaffolds only.
+- Small-tranche native validation: `objective-c-stakeholder` has the deterministic first tranche implemented and validated with Apple clang plus Foundation (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`); `common-lisp-stakeholder` has the deterministic first tranche implemented and validated with CLISP (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`); `scheme-stakeholder` has the deterministic first tranche implemented and validated with Chibi Scheme (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`); `prolog-stakeholder` has the deterministic first tranche implemented and validated with GNU Prolog (`python3 scripts/validate_scaffold.py`, `make compiler-proof`, `make test`).
+- Remaining runtime validation claim: none for the other 16 repos; they still have local baseline scaffolds only.
 - Repo/language ids:
   1. `v`
   2. `objective-c`
