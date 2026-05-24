@@ -2,11 +2,11 @@
   "mirroredDocs": [
     {
       "path": "docs/program/current-wave.md",
-      "sha256": "13df4290c91703734ec33d2dcd130714cc5621eb751bc023eb4b03ea51277c9b"
+      "sha256": "75588a315db6988f87567338b29f63d407164c4ecc7d18285f9da12dafd125f8"
     },
     {
       "path": "docs/program/repo-sequencing.md",
-      "sha256": "cdc9c342e1e7946b23c9f2a5c239fd137fef73120d3e518f689a177ce3bfb3b0"
+      "sha256": "f74b5886fe01267eb67859fc51d56376cc5275fb97c36c2bfa362aaa2b6a06f0"
     },
     {
       "path": "docs/program/language-horizon.md",
