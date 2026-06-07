@@ -23,8 +23,8 @@
             };
         in {
           build = mk "build" ''echo "center-ring is documentation and workflow focused"'';
-          test = mk "test" ''echo "No runtime test suite yet"'';
-          check = mk "check" ''actionlint'';
+          test = mk "test" ''python3 scripts/validate_program_docs.py'';
+          check = mk "check" ''actionlint && python3 scripts/validate_program_docs.py'';
           format = mk "format" ''echo "No formatter baseline defined for center-ring"'';
         });
     };

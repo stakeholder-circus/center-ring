@@ -1,0 +1,20 @@
+{
+  "mirroredDocs": [
+    {
+      "path": "docs/program/current-wave.md",
+      "sha256": "54f2187fb68d534a98db277e91c64bb698af33ff914617c7b5a2a5450109fde1"
+    },
+    {
+      "path": "docs/program/repo-sequencing.md",
+      "sha256": "1a7e1ab9799a7c6b669299a647d5c945d7216af582768b18501ea25061c13306"
+    },
+    {
+      "path": "docs/program/language-horizon.md",
+      "sha256": "bfa767b67cedae652cea2a4569e7e58af7cab548f3d89d52c849d77ff050a6fb"
+    },
+    {
+      "path": "docs/program/github-governance-state.md",
+      "sha256": "887903cf0aa5cff08c3d53816457f060334cc5a0be5ad7bf17f172473fe5d369"
+    }
+  ]
+}

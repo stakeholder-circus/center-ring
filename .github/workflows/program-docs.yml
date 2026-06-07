@@ -1,0 +1,28 @@
+name: program-docs
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'scripts/validate_program_docs.py'
+      - 'flake.nix'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'scripts/validate_program_docs.py'
+      - 'flake.nix'
+
+permissions:
+  contents: read
+
+jobs:
+  program-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_program_docs.py
