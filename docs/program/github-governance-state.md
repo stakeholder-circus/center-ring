@@ -6,6 +6,18 @@
 - `stakeholder-circus/center-ring` is the public umbrella meta-repo.
 - Active language repos live under `stakeholder-circus/*-stakeholder` when they are ready for publication.
 
+## 2026-06-07 GitHub audit state
+- Local stakeholder workspace repos counted: 60.
+- Active GitHub stakeholder repos counted: 60.
+- Additional non-active archive repo counted separately: `davidsupan/java-stakeholder-private-archive`.
+- Canonical planned language horizon remains 250 total languages.
+- Missing active upstream repos were closed during this audit wave: 51 `stakeholder-circus/*` repos were created and pushed from clean local commits with their CI workflow baselines.
+- Latest serial GitHub Actions audit found 60 active repos, 22 repos with all latest workflows complete and green, 0 repos with latest completed non-success workflows, and 191 latest workflows still pending in the GitHub Actions queue.
+- Pending workflows are not treated as passing evidence; they remain an open audit item until GitHub completes them.
+- Repo-local CI cleanup already applied in this wave includes actionlint workflow repair, unsupported CodeQL lane removal or note workflows, stale non-Rust Cargo Dependabot lane removal, Gleam CI toolchain setup, Crystal Docker-smoke YAML repair, and private-repo dependency-review guarding for `stakeholder-core`.
+- Active PR cleanup already performed in this wave includes merging green Dependabot PRs, closing obsolete empty-diff CodeQL PRs, and closing the incompatible `.NET` runtime 10 Docker PR because the app still targets `net8.0`.
+- Remaining open PR classes are dirty/conflicted Dependabot branches waiting on Dependabot rebase/recreate, and two intentional fix PRs waiting on GitHub queue completion: `stakeholder-circus/dotnet-stakeholder#13` and `stakeholder-circus/go-stakeholder#7`.
+
 ## Attribution and provenance model
 - Derivative language repos are created from imported upstream Rust history, not `git init`.
 - Original Rust commits and author metadata remain intact.
