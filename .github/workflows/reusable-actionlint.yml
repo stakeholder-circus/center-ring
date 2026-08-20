@@ -10,5 +10,7 @@ jobs:
   actionlint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: rhysd/actionlint@v1
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: rhysd/actionlint@011a6d15e749bb3f2d771eed9c7aa0e7e3e10ee7 # main
