@@ -1,20 +1,30 @@
 # Workspace Parity Status
 
-## Mirrored references
-- Mirrored program plan: [`center-ring/docs/program/index.md`](/Users/davidsupan/shareholder/center-ring/docs/program/index.md)
-- Canonical program plan: [`stakeholder-core/docs/program/index.md`](/Users/davidsupan/shareholder/stakeholder-core/docs/program/index.md)
+## Canonical references
+- Program plan: [`stakeholder-core/docs/program/index.md`](/Users/davidsupan/shareholder/stakeholder-core/docs/program/index.md)
+- Umbrella mirror: [`center-ring/docs/program/index.md`](/Users/davidsupan/shareholder/center-ring/docs/program/index.md)
 - Concrete repo ledger: [`stakeholder-core/data/language-matrix.json`](/Users/davidsupan/shareholder/stakeholder-core/data/language-matrix.json)
-- 101-language horizon: [`stakeholder-core/data/language-horizon.json`](/Users/davidsupan/shareholder/stakeholder-core/data/language-horizon.json)
+- Research horizon: [`stakeholder-core/data/language-horizon.json`](/Users/davidsupan/shareholder/stakeholder-core/data/language-horizon.json)
+- GitHub governance evidence: [`stakeholder-core/docs/program/github-governance-state.md`](/Users/davidsupan/shareholder/stakeholder-core/docs/program/github-governance-state.md)
 
 ## Current parity snapshot
-- Rust remains the canonical behavioral source.
-- Java and JavaScript are the co-equal provider-runtime lanes in canonical planning.
-- `.NET`, Go, Python, and Swift remain the closed and validated follower baseline for classic-six plus modern-core.
-- `fsharp-stakeholder`, `zig-stakeholder`, `haskell-stakeholder`, `kotlin-stakeholder`, `elixir-stakeholder`, `nim-stakeholder`, and `crystal-stakeholder` are the validated wider-matrix repos now; publication is held by the 10-rewrite threshold rather than missing local implementation depth.
-- `lua-stakeholder` is the next implementation repo after the active-repo completion lanes close.
-- `dart-stakeholder`, `gleam-stakeholder`, and `ocaml-stakeholder` remain local-only scaffolds, while `zeta-stakeholder` remains a local-only spike scaffold.
-- Phase completeness is tracked separately from program completeness in the canonical and mirrored ledgers.
+- Rust remains the canonical behavioral source and now uses `main`.
+- Java and JavaScript are the co-equal provider-runtime lanes.
+- .NET, Go, Python, and Swift retain the validated follower classic-six plus modern-core phase baseline.
+- The first ten wider-matrix rewrites and the next-20 deterministic tranche retain their claimed deterministic phase completion.
+- Later generator families and full live-provider/runtime support remain required eventual program work for every language, including Rust.
+- The active estate has 60 repos; the 250-language figure is the planned research horizon, not current implementation count.
+- Phase completeness remains separate from program completeness in canonical data and manager output.
 
-## Primary risk
-- The main execution risk is widening additional language ports before the active-repo stabilization lanes finish, because status drift is now a bigger threat than missing implementation depth in the already validated tranche.
-- The main toolchain task is maintenance rather than installation: keep `flake.lock` normalized as new repos enter the validated set while preserving the intentional second lock shape in `zig-stakeholder` and `haskell-stakeholder`.
+## Security and delivery parity
+- All 59 public repos share the common branch-protection baseline.
+- Thirteen repos currently add proven required native/Docker/dependency/workflow-SAST/CodeQL contexts.
+- The remaining repos are hardened in small tranches using GitHub Actions to avoid local M1 CPU and RAM pressure.
+- Unsupported CodeQL languages use language-native analyzers and explicit `N/A unsupported` evidence rather than fake gates.
+- Sonar remains `N/A pending provisioning`; it becomes authoritative only after real organization, project, token, and quality-gate setup.
+
+## Primary risks
+- Treating deterministic phase completion as full generator/provider parity would overstate progress.
+- Widening before required-check and SAST rollout closes would increase governance drift.
+- Local Java and JavaScript provider commits remain intentionally divergent and must be reconciled non-destructively.
+- GitHub Free limits private `stakeholder-core` protection and organization-wide rulesets.
