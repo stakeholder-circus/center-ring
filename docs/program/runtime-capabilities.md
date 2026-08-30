@@ -1,7 +1,7 @@
 # Interactive runtime capabilities
 
 The canonical machine-readable source is
-[`data/runtime-capability-matrix.json`](https://github.com/stakeholder-circus/stakeholder-core/blob/main/data/runtime-capability-matrix.json).
+[`data/runtime-capability-matrix.json`](https://github.com/davidsupan/stakeholder-core/blob/main/data/runtime-capability-matrix.json).
 Interactive execution is a separate capability from deterministic parity or
 program completeness: a language can be fully rewritten without yet having a
 safe browser adapter.
