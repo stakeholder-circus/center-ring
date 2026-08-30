@@ -15,6 +15,10 @@
     {
       "path": "docs/program/github-governance-state.md",
       "sha256": "ead48e3ccf60bd9eca257e4c5cffaeff8864a5b759bf12ce1687db40a47c41c8"
+    },
+    {
+      "path": "docs/program/runtime-capabilities.md",
+      "sha256": "81ae29f5d066b137506caa7e3192599064f56dc87f34331b9947fb93aa8723d2"
     }
   ]
 }
