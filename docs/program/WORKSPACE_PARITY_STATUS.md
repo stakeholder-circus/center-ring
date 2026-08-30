@@ -1,30 +1,33 @@
 # Workspace Parity Status
 
-## Canonical references
-- Program plan: [`stakeholder-core/docs/program/index.md`](/Users/davidsupan/shareholder/stakeholder-core/docs/program/index.md)
-- Umbrella mirror: [`center-ring/docs/program/index.md`](/Users/davidsupan/shareholder/center-ring/docs/program/index.md)
-- Concrete repo ledger: [`stakeholder-core/data/language-matrix.json`](/Users/davidsupan/shareholder/stakeholder-core/data/language-matrix.json)
-- Research horizon: [`stakeholder-core/data/language-horizon.json`](/Users/davidsupan/shareholder/stakeholder-core/data/language-horizon.json)
-- GitHub governance evidence: [`stakeholder-core/docs/program/github-governance-state.md`](/Users/davidsupan/shareholder/stakeholder-core/docs/program/github-governance-state.md)
+Last updated: 2026-08-30 20:15 CEST
 
-## Current parity snapshot
-- Rust remains the canonical behavioral source and now uses `main`.
-- Java and JavaScript are the co-equal provider-runtime lanes.
-- .NET, Go, Python, and Swift retain the validated follower classic-six plus modern-core phase baseline.
-- The first ten wider-matrix rewrites and the next-20 deterministic tranche retain their claimed deterministic phase completion.
-- Later generator families and full live-provider/runtime support remain required eventual program work for every language, including Rust.
-- The active estate has 60 repos; the 250-language figure is the planned research horizon, not current implementation count.
-- Phase completeness remains separate from program completeness in canonical data and manager output.
+## Current interpretation
 
-## Security and delivery parity
-- All 59 public repos share the common branch-protection baseline.
-- Thirteen repos currently add proven required native/Docker/dependency/workflow-SAST/CodeQL contexts.
-- The remaining repos are hardened in small tranches using GitHub Actions to avoid local M1 CPU and RAM pressure.
-- Unsupported CodeQL languages use language-native analyzers and explicit `N/A unsupported` evidence rather than fake gates.
-- Sonar remains `N/A pending provisioning`; it becomes authoritative only after real organization, project, token, and quality-gate setup.
+- Repository phase status describes the validated tranche currently promised by that repository.
+- Program status describes progress toward full cross-language generator and provider parity.
+- Deterministic behavior, normalized JSON, registry listing, same-seed stability, and explicit provider handling remain the common comparison contract.
 
-## Primary risks
-- Treating deterministic phase completion as full generator/provider parity would overstate progress.
-- Widening before required-check and SAST rollout closes would increase governance drift.
-- Local Java and JavaScript provider commits remain intentionally divergent and must be reconciled non-destructively.
-- GitHub Free limits private `stakeholder-core` protection and organization-wide rulesets.
+## GitHub validation parity
+
+- The 60-repository estate exposes 321 active workflows.
+- Latest default-branch evidence is 277 successful workflows, 44 expected event-only or never-run workflows, and zero failures.
+- Thirteen public repositories currently bind proven native, Docker, dependency, workflow-security, and supported SAST contexts as required checks.
+- The remaining repositories receive required checks only after successful default-branch runs prove stable context names.
+- GitHub code-scanning APIs are available for 17 repositories and unavailable for 43. Unsupported languages use language-native analyzers and explicit `N/A unsupported` evidence rather than fake gates.
+- The queried estate has zero open Dependabot, code-scanning, and secret-scanning alerts, but a zero-alert result does not replace missing scanner coverage.
+
+## Behavioral parity direction
+
+- Rust remains the source audit anchor and must receive the same eventual generator expansion as every other language.
+- Every language target is expected to implement all generator categories in the final program, including AI/provider behavior where the runtime can support it safely.
+- Current deterministic-first tranches may use explicit fail-fast provider behavior, but that is an interim phase state rather than the final program state.
+- Differences between implementations must remain traceable through canonical families, feature evidence, provenance, and documented gaps.
+
+## Open parity risks
+
+- Full generator depth is uneven across the wider language matrix.
+- Live-provider implementation and secure credential/session handling are not yet uniform.
+- Source SAST is unavailable or unproven for 43 repositories.
+- Sonar coverage is not provisioned and must not be represented as complete.
+- Remote runner and browser control-plane integration remain staged until the NixOS proxy is activated and verified.
