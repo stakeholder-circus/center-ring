@@ -12,6 +12,7 @@ REQUIRED = [
     'repo-sequencing.md',
     'language-horizon.md',
     'github-governance-state.md',
+    'runtime-capabilities.md',
     'governance-overlays.md',
     'sync-manifest.json',
 ]
@@ -20,6 +21,7 @@ MIRRORED = [
     'repo-sequencing.md',
     'language-horizon.md',
     'github-governance-state.md',
+    'runtime-capabilities.md',
 ]
 
 
